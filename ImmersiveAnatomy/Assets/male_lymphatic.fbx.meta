@@ -1,0 +1,2207 @@
+fileFormatVersion: 2
+guid: f57da78942ec12e43a07874befaf8911
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lymphatic_Lymph_Vesse.001
+    second: {fileID: 2100000, guid: b661dc322d3aeec4e84973101e158540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lymphatic_Spleen_mat
+    second: {fileID: 2100000, guid: d84563119cb23e94296bede8f70951dc, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck.001
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: male_lymphatic(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lymphatic+Lymphatic
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphatic.0
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.271
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.270
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.269
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.268
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.267
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.266
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.265
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.264
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.263
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.262
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.261
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.260
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.259
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.258
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.257
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.256
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.255
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.254
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.253
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.252
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.251
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.250
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.249
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.248
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.247
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.246
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.245
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.244
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.243
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.242
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.241
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.240
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.239
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.238
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.237
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.236
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.235
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.234
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.233
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.232
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.231
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.230
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.229
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.228
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.227
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.226
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.225
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.224
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.223
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.222
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.221
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.220
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.219
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.217
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.216
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.215
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.214
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.213
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.212
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.211
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.210
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.209
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.208
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.207
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.206
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.205
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.204
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.203
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.202
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.201
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.200
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.199
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.198
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.197
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.196
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.195
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.194
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.193
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.192
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.191
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.190
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.189
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.188
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.187
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.186
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.185
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.184
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.183
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.182
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.181
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.180
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.179
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.178
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.177
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.176
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.175
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.174
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.173
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.172
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.171
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.170
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.169
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.168
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.166
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.165
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.164
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.163
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.162
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.161
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.160
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.159
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.158
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.157
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.156
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.155
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.154
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.153
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.152
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.151
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.150
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.149
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.148
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.147
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.146
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.145
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.144
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.143
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.142
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.141
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.140
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.139
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.138
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.137
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.136
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.135
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.134
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.133
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.132
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.131
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.130
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.129
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.128
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.127
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.126
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.125
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.124
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.123
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.122
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.121
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.120
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.119
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.118
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.117
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.116
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.115
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.114
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.113
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.112
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.111
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.110
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.109
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.108
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.107
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.106
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.105
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.104
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.103
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.102
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.101
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.100
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.099
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.098
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.097
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.096
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.095
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.094
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.093
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.092
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.091
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.090
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.089
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.088
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.087
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.086
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.085
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.084
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.083
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.082
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.081
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.080
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.079
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.078
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.077
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.076
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.075
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.074
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.073
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.072
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.071
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.070
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.069
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.068
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.067
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.066
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.065
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.064
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.063
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.062
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.061
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.060
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.059
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.058
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.057
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.056
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.055
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.054
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.053
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.052
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.051
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.050
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.049
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.048
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.047
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.046
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.045
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.044
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.043
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.042
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.041
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.040
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.039
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.038
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.037
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.036
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.035
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.034
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.033
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.032
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.031
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.030
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.029
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.028
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.027
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.026
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.025
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.024
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.023
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.022
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.021
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.020
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.019
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.018
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.017
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.016
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.015
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.014
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.013
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.012
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.011
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.010
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.009
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.008
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.007
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.006
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.005
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.004
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.003
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.002
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lymphatic+Lymphat.001
+      parentName: male_lymphatic(Clone)
+      position: {x: -0, y: 0, z: -0.0000000037252903}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: metarig.001
+      parentName: male_lymphatic(Clone)
+      position: {x: -0.00095766596, y: -0.09669232, z: -0.016463656}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 111.165634, y: 111.165634, z: 111.165634}
+    - name: hips
+      parentName: metarig.001
+      position: {x: 0.0000032803343, y: 0.0004753806, z: 0.009625595}
+      rotation: {x: 0.8104293, y: -0.004734971, z: 0.003386185, w: 0.58580756}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: spine.001
+      parentName: hips
+      position: {x: 4.492904e-12, y: 0.0013327653, z: 4.1034345e-10}
+      rotation: {x: -0.14454567, y: 0.00086490554, z: -0.0043316, w: 0.9894883}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: 1.4155609e-12, y: 0.002002649, z: 2.1296387e-11}
+      rotation: {x: -0.023107564, y: 0.00016298445, z: -0.00327228, w: 0.99972767}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: neck.001
+      parentName: spine.002
+      position: {x: -1.1709744e-13, y: 0.0017553244, z: -6.100933e-12}
+      rotation: {x: 0.3472721, y: 0.004992009, z: 0.00064310303, w: 0.9377509}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: neck.002
+      parentName: neck.001
+      position: {x: 5.820766e-13, y: 0.00036297648, z: -3.5986886e-10}
+      rotation: {x: -0.19518323, y: -0.0028600695, z: 0.014857787, w: 0.98065007}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: head
+      parentName: neck.002
+      position: {x: -6.664777e-11, y: 0.00035939115, z: -1.1868906e-10}
+      rotation: {x: -0.13238488, y: -0.03220727, z: -0.018709952, w: 0.9904983}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: head_end
+      parentName: head
+      position: {x: -0, y: 0.0016868945, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine.002
+      position: {x: -0.00017040156, y: 0.0014208723, z: 0.0005129918}
+      rotation: {x: -0.5700558, y: 0.40833998, z: 0.4076313, w: 0.58492017}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.000043742042, y: 0.0019032963, z: -0.00020384046}
+      rotation: {x: 0.08387054, y: -0.7404623, z: 0.11687683, w: 0.6565219}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: -5.448237e-10, y: 0.0019965458, z: -2.2351741e-10}
+      rotation: {x: 0.06334771, y: 0.07665009, z: -0.030501807, w: 0.99457604}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: -0.0000000020302833, y: 0.0022303318, z: 5.5879353e-11}
+      rotation: {x: -0.010423968, y: -0.08710204, z: 0.09844631, w: 0.99126834}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: f_index.01.L
+      parentName: hand.L
+      position: {x: 0.000089914385, y: 0.00032836694, z: 0.00019439269}
+      rotation: {x: -0.052060187, y: -0.6046254, z: -0.13072836, w: 0.78398216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index.02.L
+      parentName: f_index.01.L
+      position: {x: -6.984919e-11, y: 0.0006750541, z: -7.508788e-10}
+      rotation: {x: -0.013722289, y: -0.12708253, z: 0.03688552, w: 0.99111116}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: f_index.03.L
+      parentName: f_index.02.L
+      position: {x: 1.1641532e-10, y: 0.00045040122, z: 1.9615981e-10}
+      rotation: {x: 0.03963763, y: -0.01367688, z: 0.0026409102, w: 0.999117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_index.03.L_end
+      parentName: f_index.03.L
+      position: {x: -0, y: 0.00028223326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb.01.L
+      parentName: hand.L
+      position: {x: -0.0000010921026, y: 0.00018959057, z: 0.0002859895}
+      rotation: {x: -0.0063534025, y: 0.8589879, z: 0.47530004, w: -0.190235}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: thumb.02.L
+      parentName: thumb.01.L
+      position: {x: 3.6903655e-10, y: 0.0003983312, z: 8.754432e-10}
+      rotation: {x: 0.027829694, y: -0.09268454, z: 0.019321255, w: 0.995119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb.03.L
+      parentName: thumb.02.L
+      position: {x: 6.91507e-10, y: 0.0003736162, z: -1.8626451e-11}
+      rotation: {x: 0.002891998, y: -0.01572838, z: 0.037064735, w: 0.9991849}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb.03.L_end
+      parentName: thumb.03.L
+      position: {x: -0, y: 0.00022362305, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.01.L
+      parentName: hand.L
+      position: {x: 0.00011862041, y: 0.00030725042, z: 0.000069660266}
+      rotation: {x: -0.06674793, y: -0.61793447, z: -0.13770767, w: 0.77119285}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: f_middle.02.L
+      parentName: f_middle.01.L
+      position: {x: -0, y: 0.00064887194, z: -1.6996636e-10}
+      rotation: {x: 0.024331376, y: -0.076783024, z: 0.035612803, w: 0.99611455}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: f_middle.03.L
+      parentName: f_middle.02.L
+      position: {x: 1.3038516e-10, y: 0.0004954055, z: -1.0710209e-10}
+      rotation: {x: 0.037542745, y: 0.005681908, z: 0.0024480652, w: 0.99927586}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: f_middle.03.L_end
+      parentName: f_middle.03.L
+      position: {x: -0, y: 0.00032196008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring.01.L
+      parentName: hand.L
+      position: {x: 0.00009297508, y: 0.00025963414, z: -0.00007185992}
+      rotation: {x: -0.078083485, y: -0.63675785, z: -0.14525884, w: 0.7532213}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: f_ring.02.L
+      parentName: f_ring.01.L
+      position: {x: -3.7252902e-11, y: 0.00066150405, z: -2.7008354e-10}
+      rotation: {x: 0.09425533, y: -0.027878, z: -0.013447391, w: 0.9950668}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: f_ring.03.L
+      parentName: f_ring.02.L
+      position: {x: -0, y: 0.00044816642, z: 0.0000000011431984}
+      rotation: {x: 0.075785935, y: -0.0065183146, z: 0.013619331, w: 0.9970098}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: f_ring.03.L_end
+      parentName: f_ring.03.L
+      position: {x: -0, y: 0.00031800853, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.01.L
+      parentName: hand.L
+      position: {x: 0.000025323126, y: 0.00021176819, z: -0.0001714247}
+      rotation: {x: -0.08637501, y: -0.67578393, z: -0.13671614, w: 0.71914124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.02.L
+      parentName: f_pinky.01.L
+      position: {x: 0.000009053051, y: 0.0007279006, z: -0.00000033494433}
+      rotation: {x: 0.1676759, y: 0.05108412, z: -0.032862037, w: 0.98396915}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: f_pinky.03.L
+      parentName: f_pinky.02.L
+      position: {x: -0, y: 0.0002787644, z: -0.00000000173226}
+      rotation: {x: 0.045614302, y: -0.002070664, z: 0.009116923, w: 0.9989154}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: f_pinky.03.L_end
+      parentName: f_pinky.03.L
+      position: {x: -0, y: 0.00022592388, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine.002
+      position: {x: 0.00019559596, y: 0.0014222416, z: 0.0005129641}
+      rotation: {x: -0.5685548, y: -0.4104256, z: -0.4053972, w: 0.586472}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.000043742046, y: 0.0019032968, z: -0.0002038416}
+      rotation: {x: 0.083870314, y: 0.7404623, z: -0.11687669, w: 0.6565221}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: 6.2864275e-10, y: 0.0019965463, z: -7.4505804e-11}
+      rotation: {x: 0.06377273, y: -0.07680759, z: 0.030799363, w: 0.9945276}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: 0.0000000011688098, y: 0.0022303332, z: -1.11758706e-10}
+      rotation: {x: -0.010423942, y: 0.0871021, z: -0.098446324, w: 0.99126834}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_index.01.R
+      parentName: hand.R
+      position: {x: -0.00008991405, y: 0.0003283679, z: 0.00019439294}
+      rotation: {x: -0.052059866, y: 0.60462505, z: 0.13073097, w: 0.783982}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: f_index.02.R
+      parentName: f_index.01.R
+      position: {x: 9.3132255e-12, y: 0.0006750547, z: 4.4237822e-10}
+      rotation: {x: -0.013723885, y: 0.1270825, z: -0.03688501, w: 0.99111116}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: f_index.03.R
+      parentName: f_index.02.R
+      position: {x: -0, y: 0.00045040014, z: 1.5599652e-10}
+      rotation: {x: 0.03963856, y: 0.013677082, z: -0.002639667, w: 0.999117}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: f_index.03.R_end
+      parentName: f_index.03.R
+      position: {x: -0, y: 0.00028223326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb.01.R
+      parentName: hand.R
+      position: {x: 0.000001092148, y: 0.00018959175, z: 0.00028599004}
+      rotation: {x: 0.006452142, y: 0.8590184, z: 0.47525963, w: 0.1901954}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: thumb.02.R
+      parentName: thumb.01.R
+      position: {x: -0.0000000012567034, y: 0.0003983308, z: 6.1467287e-10}
+      rotation: {x: 0.027829302, y: 0.09268396, z: -0.01932111, w: 0.99511904}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: thumb.03.R
+      parentName: thumb.02.R
+      position: {x: -0.0000000024191102, y: 0.00037361644, z: 9.313225e-11}
+      rotation: {x: 0.0028938486, y: 0.015728308, z: -0.03706788, w: 0.99918485}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: thumb.03.R_end
+      parentName: thumb.03.R
+      position: {x: -0, y: 0.00022362305, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.01.R
+      parentName: hand.R
+      position: {x: -0.00011862084, y: 0.00030725106, z: 0.000069660615}
+      rotation: {x: -0.06674735, y: 0.61793435, z: 0.13770975, w: 0.7711926}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: f_middle.02.R
+      parentName: f_middle.01.R
+      position: {x: -9.313225e-11, y: 0.00064887246, z: -6.472692e-10}
+      rotation: {x: 0.024331395, y: 0.07678293, z: -0.035612796, w: 0.99611455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_middle.03.R
+      parentName: f_middle.02.R
+      position: {x: -3.7252902e-11, y: 0.00049540517, z: 7.7998263e-10}
+      rotation: {x: 0.037546005, y: -0.0056817876, z: -0.002446424, w: 0.99927574}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: f_middle.03.R_end
+      parentName: f_middle.03.R
+      position: {x: -0, y: 0.00032196008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_ring.01.R
+      parentName: hand.R
+      position: {x: -0.00009297527, y: 0.0002596345, z: -0.000071859766}
+      rotation: {x: -0.07808345, y: 0.6367579, z: 0.14526053, w: 0.7532209}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.99999994}
+    - name: f_ring.02.R
+      parentName: f_ring.01.R
+      position: {x: 2.9802322e-10, y: 0.0006615043, z: 0.0000000024586915}
+      rotation: {x: 0.09425536, y: 0.02787791, z: 0.013447424, w: 0.9950668}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: f_ring.03.R
+      parentName: f_ring.02.R
+      position: {x: -1.8626451e-11, y: 0.00044816648, z: -5.9837474e-10}
+      rotation: {x: 0.07578594, y: 0.006518312, z: -0.013619337, w: 0.9970098}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: f_ring.03.R_end
+      parentName: f_ring.03.R
+      position: {x: -0, y: 0.00031800853, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_pinky.01.R
+      parentName: hand.R
+      position: {x: -0.000025323647, y: 0.00021176896, z: -0.00017142459}
+      rotation: {x: -0.08637415, y: 0.6757844, z: 0.13671818, w: 0.71914065}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: f_pinky.02.R
+      parentName: f_pinky.01.R
+      position: {x: -0.000009053126, y: 0.0007279003, z: -0.00000033485702}
+      rotation: {x: 0.16767596, y: -0.051084235, z: 0.032862037, w: 0.98396915}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: f_pinky.03.R
+      parentName: f_pinky.02.R
+      position: {x: 7.4505804e-11, y: 0.0002787634, z: 1.6763806e-10}
+      rotation: {x: 0.045614272, y: 0.002070668, z: -0.009116901, w: 0.9989154}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: f_pinky.03.R_end
+      parentName: f_pinky.03.R
+      position: {x: -0, y: 0.00022592388, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest.L
+      parentName: spine.002
+      position: {x: -0.000993765, y: 0.0002980432, z: -0.00046207628}
+      rotation: {x: -0.0012842319, y: 0.70095867, z: 0.71319956, w: -0.0013606163}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chest.L_end
+      parentName: chest.L
+      position: {x: -0, y: 0.001392, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest.R
+      parentName: spine.002
+      position: {x: 0.0010271902, y: 0.00030560393, z: -0.00046222913}
+      rotation: {x: -0.0012842319, y: 0.70095867, z: 0.71319956, w: -0.0013606163}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chest.R_end
+      parentName: chest.R
+      position: {x: -0, y: 0.001392, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.L
+      parentName: hips
+      position: {x: 8.294592e-12, y: 6.898517e-11, z: 3.2788633e-10}
+      rotation: {x: -0.16186242, y: 0.7944742, z: 0.316329, w: 0.49249095}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: pelvis.L_end
+      parentName: pelvis.L
+      position: {x: -0, y: 0.0018867938, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.R
+      parentName: hips
+      position: {x: -0.0000065602185, y: 0.00000007645779, z: 7.524478e-10}
+      rotation: {x: 0.17111948, y: 0.7925069, z: 0.32203177, w: -0.48882157}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: pelvis.R_end
+      parentName: pelvis.R
+      position: {x: -0, y: 0.0018867938, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: hips
+      position: {x: -0.00088543375, y: 0.00059470214, z: 0.00028319395}
+      rotation: {x: 0.98410654, y: -0.0435059, z: 0.0075610722, w: 0.1720013}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999857}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: -4.114554e-11, y: 0.00464933, z: 7.566996e-12}
+      rotation: {x: 0.051335786, y: -0.0038121343, z: -0.01851835, w: 0.9985025}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: 6.9749144e-11, y: 0.0039775274, z: -1.01863405e-11}
+      rotation: {x: -0.58823323, y: 0.013463955, z: -0.004766883, w: 0.80856526}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: toe.L
+      parentName: foot.L
+      position: {x: 2.910383e-11, y: 0.0012026232, z: -1.6880221e-10}
+      rotation: {x: 0.0077446355, y: 0.98114765, z: -0.19309175, w: -0.0022207948}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: toe.L_end
+      parentName: toe.L
+      position: {x: -0, y: 0.0006720001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heel.L
+      parentName: foot.L
+      position: {x: 0.00034982638, y: -0.000012199469, z: 0.00045950705}
+      rotation: {x: -0.6883001, y: 0.6992522, z: -0.1349661, w: -0.13810694}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: heel.L_end
+      parentName: heel.L
+      position: {x: -0, y: 0.0008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: hips
+      position: {x: 0.0008925134, y: 0.00057400187, z: 0.00028308897}
+      rotation: {x: 0.98469937, y: 0.027094053, z: -0.0074499203, w: 0.17198138}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: -7.134076e-11, y: 0.004649329, z: -1.7462297e-11}
+      rotation: {x: 0.051335733, y: 0.003812098, z: 0.018518325, w: 0.9985025}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -6.2573232e-12, y: 0.0039775283, z: 2.4301698e-11}
+      rotation: {x: -0.58823305, y: -0.013463954, z: 0.0047668847, w: 0.8085653}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: toe.R
+      parentName: foot.R
+      position: {x: -9.720679e-11, y: 0.0012026215, z: 6.0535965e-11}
+      rotation: {x: -0.0077446443, y: 0.9811476, z: -0.19309199, w: 0.0022207983}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: toe.R_end
+      parentName: toe.R
+      position: {x: -0, y: 0.0006720001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heel.R
+      parentName: foot.R
+      position: {x: -0.00034982647, y: -0.000012199241, z: 0.00045950725}
+      rotation: {x: 0.6882998, y: 0.69925255, z: -0.13496621, w: 0.13810705}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: heel.R_end
+      parentName: heel.R
+      position: {x: -0, y: 0.0008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
